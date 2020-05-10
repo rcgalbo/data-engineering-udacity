@@ -68,3 +68,25 @@ if files are large: break it up, parallel ingest
 can `UNLOAD` data to s3 also
 
 infrastructure as code - devops
+
+redshift distribution styles
+
+even:
+- evenly divide rows across machines
+- good if table won't be joined
+    - shuffles key
+
+all:
+- replicate tables across all slices
+- speeds up joins
+- issue for many rows
+
+auto:
+- redshift determines
+
+key:
+- rows with similar values have the same slice
+
+syntax: assign `distkey`
+
+can also have a sorting key
