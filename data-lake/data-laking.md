@@ -19,3 +19,11 @@ functional programming!
 imperative: spark df
 declarative: spark sql
 
+emr tips:
+- make sure you add ssh to ec2 security group for master before tryign to ssh
+- use foxyproy json in firefox not the html config
+
+
+all data are welcome!
+
+ELT not ETL
