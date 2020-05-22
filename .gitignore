@@ -2,4 +2,5 @@ de
 .vscode
 .ipynb_checkpoints
 .env
+*.pem
 __pycache__

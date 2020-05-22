@@ -27,3 +27,9 @@ emr tips:
 all data are welcome!
 
 ELT not ETL
+
+options for running elt on AWS
+- EMR w hdfs always running
+- Spark standalone with s3 only running when needed
+- Athena & s3 using cloud lambda functions
+
